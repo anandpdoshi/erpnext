@@ -6,7 +6,7 @@ import frappe
 from frappe.model.naming import make_autoname
 from frappe import _, msgprint, throw
 import frappe.defaults
-from frappe.utils import flt, cint, cstr
+from frappe.utils import flt, cint, cstr, get_gravatar
 from frappe.desk.reportview import build_match_conditions
 from erpnext.utilities.transaction_base import TransactionBase
 from erpnext.utilities.address_and_contact import load_address_and_contact
@@ -42,6 +42,9 @@ class Customer(TransactionBase):
 	def validate(self):
 		self.flags.is_new_doc = self.is_new()
 		validate_party_accounts(self)
+
+		if not self.image:
+			self.image = get_gravatar(self.customer_name)
 
 	def update_lead_status(self):
 		if self.lead_name:

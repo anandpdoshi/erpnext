@@ -381,7 +381,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "employment_details", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -628,7 +628,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "job_profile", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -907,7 +907,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "organization_profile", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -981,7 +981,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "contact_details", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -1283,14 +1283,14 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "sb53", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "in_filter": 0, 
    "in_list_view": 0, 
-   "label": "", 
+   "label": "Biography", 
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -1330,7 +1330,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "personal_details", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -1587,7 +1587,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "educational_qualification", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -1634,7 +1634,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "previous_work_experience", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -1682,7 +1682,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "history_in_company", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -1730,7 +1730,7 @@
   {
    "allow_on_submit": 0, 
    "bold": 0, 
-   "collapsible": 0, 
+   "collapsible": 1, 
    "fieldname": "exit", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -2038,7 +2038,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2016-01-04 05:37:04.262434", 
+ "modified": "2016-02-03 04:22:36.031473", 
  "modified_by": "Administrator", 
  "module": "HR", 
  "name": "Employee", 
